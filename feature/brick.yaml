@@ -1,0 +1,22 @@
+name: feature
+description: Generate a clean architecture feature
+vars:
+  name:
+    type: string
+    description: Feature name
+    default: feature
+    prompt: Feature name
+  model_name:
+    type: string
+    description: Model base name
+    default: item
+    prompt: Model name
+  usecase_name:
+    type: string
+    description: Usecase action name
+    prompt: Usecase name
+
+version: 0.1.0+1
+
+environment:
+  mason: ^0.1.2
